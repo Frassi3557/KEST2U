@@ -12,18 +12,18 @@ Each network has access for guests, with one user on each connected.
 As for the RIX and tskoli server, I couldn't figure out how to get them to work.
 
 
-ISP_DHCP_DNS:
+# ISP_DHCP_DNS:
 
 FastEthernet 0: 192.168.1.1 /24
 
-R_ISP:
+# R_ISP:
 
 VLAN 1 - 192.168.4.1 /24
 
 GigabitEthernet 0/0/0 - 192.168.11.11 /24 (Conects to RIX)
 GigabitEthernet 0/0/1 - 192.168.1.3 /24 ( Connects to S_ISP)
 
-S_ISP:
+# S_ISP:
 
 VLAN 1 - 192.168.1.2 /24
 
@@ -33,7 +33,7 @@ FastEthernet 0/2 - Connects to Home Router (Fyrirtæki)
 GigabitEthernet 0/1 - Connects to R_ISP
 GigabitEthernet 0/2 - Connects to ISP_DHCP_DNS
 
-Home Router (Heimili):
+# Home Router (Heimili):
 
 Internet - Supplied via DHCP.
 
@@ -41,7 +41,7 @@ LAN - 192.168.2.1 /24
 
 All wireless and wired devices connect to the home router. Their IP's are supplied via DHCP.
 
-Home Router (Fyrirtæki):
+# Home Router (Fyrirtæki):
 
 Internet - Supplied via DHCP.
 
