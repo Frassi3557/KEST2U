@@ -14,6 +14,8 @@ All passwords in the project are: "password".
 
 Each network has access for guests, with one user on each connected.
 
+All lines are password protected.
+
 As for the RIX and tskoli server, I couldn't figure out how to get them to work.
 
 
