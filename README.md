@@ -3,10 +3,15 @@
 All end devices refer to the ISP_DHCP_DNS server for their DNS address.
 
 The home network and the business network can not communicate with each other.
+
 They can both ping the S_ISP and ISP_DHCP_DNS.
+
 ISP_DHCP_DNS provides the wireless networks as well as the S_ISP with their IP's.
+
 All wireless devices are connected to the given router in their network via WPA2 Personal mode.
+
 All passwords in the project are: "password".
+
 Each network has access for guests, with one user on each connected.
 
 As for the RIX and tskoli server, I couldn't figure out how to get them to work.
