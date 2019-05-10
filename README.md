@@ -29,7 +29,6 @@ VLAN 1 - 192.168.1.2 /24
 
 FastEthernet 0/1 - Connects to Home Router (Heimili)
 FastEthernet 0/2 - Connects to Home Router (Fyrirtæki)
-
 GigabitEthernet 0/1 - Connects to R_ISP
 GigabitEthernet 0/2 - Connects to ISP_DHCP_DNS
 
